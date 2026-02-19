@@ -2,11 +2,10 @@
 FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
 WORKDIR /src
 
-COPY TimeTravelAgency/TimeTravelAgency.csproj TimeTravelAgency/
-WORKDIR /src/TimeTravelAgency
+COPY *.csproj .
 RUN dotnet restore
 
-COPY TimeTravelAgency/. .
+COPY . .
 RUN dotnet publish -c Release -o /app/publish
 
 # Runtime stage
