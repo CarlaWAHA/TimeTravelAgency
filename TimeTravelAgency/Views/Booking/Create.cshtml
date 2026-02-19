@@ -1,0 +1,27 @@
+@model TimeTravelAgency.Models.Booking
+
+<h2>Réserver un voyage</h2>
+
+<form asp-action="Create" method="post">
+    <div>
+        <label>Destination</label>
+        <select asp-for="DestinationId" asp-items="ViewBag.Destinations"></select>
+    </div>
+
+    <div>
+        <label>Date</label>
+        <input asp-for="TravelDate" type="date" />
+    </div>
+
+    <div>
+        <label>Voyageurs</label>
+        <input asp-for="Travelers" type="number" min="1" max="10" />
+    </div>
+
+    <div>
+        <label>Email</label>
+        <input asp-for="Email" />
+    </div>
+
+    <button type="submit">Confirmer</button>
+</form>
