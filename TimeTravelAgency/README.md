@@ -2,9 +2,11 @@
 
 Application web de voyage temporel développée avec ASP.NET Core MVC, Docker et déployée sur le cloud.
 
-Lien de l'application déploiyer en ligne via Render : https://timetravelagency-u1ma.onrender.com
-Définition des Features 
+# Lien de l'application déploiyer en ligne via Render : 
+https://timetravelagency-u1ma.onrender.com
 
+# Lien du repot GtHub:
+https://github.com/CarlaWAHA/TimeTravelAgency.git
 
 # Stack technique :
 
