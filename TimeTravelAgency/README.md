@@ -158,4 +158,56 @@ Validation automatique
 
 Confirmation simulée 
 
- 
+TimeTravel Agency — Webapp Interactive
+
+Webapp ASP.NET Core MVC simulant une agence de voyage temporel premium avec intégration d’un agent conversationnel IA.
+
+Projet réalisé dans le cadre du module IA Créative.
+
+🛠 Stack Technique
+
+ASP.NET Core MVC (.NET 8)
+
+Razor Views
+
+HTML5 / CSS3 (Dark mode premium)
+
+JavaScript (Fetch API)
+
+Mistral AI API (mistral-small)
+
+Hébergement : Render
+
+✨ Features Implémentées
+
+Landing page immersive (Hero + vidéo background)
+
+Galerie interactive de 3 destinations :
+
+Paris 1889
+
+Crétacé -65M
+
+Florence 1504
+
+Pages détaillées par destination
+
+Formulaire de réservation avec validation
+
+Chatbot IA conversationnel intégré
+
+Appel API backend sécurisé
+
+Lazy loading des images
+
+Design responsive mobile-first
+
+🤖 IA Utilisée
+
+Modèle : Mistral Small
+
+API : Mistral AI
+
+Personnalité configurée via System Prompt
+
+Génération et assistance au développement : ChatGPT
